@@ -57,3 +57,9 @@ Open `search.ipynb` in Jupyter Notebook, enter queries, and search for similar p
 - `create_faiss.ipynb`: Notebook that loads `paragraphs.jsonl` and builds the FAISS index
 - `search.ipynb`: Search GUI in Jupyter Notebook
 
+## License
+
+This project is licensed under the [GNU Affero General Public License, Version 3.0](./LICENSE).
+
+- The AGPL license text can be found in [LICENSE](./LICENSE).
+- This project uses PyMuPDF (AGPL) and other third-party libraries (Apache, MIT, BSD, etc.). See [THIRD_PARTY_LICENSES.txt](./THIRD_PARTY_LICENSES.txt) for details.

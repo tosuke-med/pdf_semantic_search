@@ -1,0 +1,6 @@
+faiss-cpu
+sentence-transformers
+ipywidgets
+numpy
+python-dotenv
+google.generativeai

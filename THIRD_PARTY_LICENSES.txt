@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+THIRD-PARTY LICENSES
+--------------------------------------------------------------------------------
+
+The following third-party libraries are used by this project. Each library is
+distributed under its own license, and you must comply with those terms when
+using this project. For full license texts, please visit the provided links.
+
+================================================================================
+1. faiss-cpu
+   Version: 1.10.0
+   License: MIT License
+   Link:    https://opensource.org/licenses/MIT
+
+================================================================================
+2. sentence-transformers
+   Version: 4.0.1
+   License: Apache License 2.0
+   Link:    https://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+3. ipywidgets
+   Version: 8.1.5
+   License: BSD License
+   Link:    https://opensource.org/license/bsd-3-clause/
+
+================================================================================
+4. numpy
+   Version: 2.2.3
+   License: BSD License
+   Link:    https://opensource.org/license/bsd-3-clause/
+
+================================================================================
+5. python-dotenv
+   Version: 1.0.1
+   License: BSD License
+   Link:    https://opensource.org/license/bsd-3-clause/
+
+================================================================================
+6. google.generativeai
+   Version: 0.8.4
+   License: Apache License 2.0
+   Link:    https://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+7. PyMuPDF (pymupdf)
+   Version: 1.25.5
+   License: GNU AFFERO GPL 3.0 (AGPL) / Artifex Commercial License
+   Links:   https://www.gnu.org/licenses/agpl-3.0.txt
+            https://artifex.com/licensing/
+--------------------------------------------------------------------------------
+
+END OF third_party_licenses.txt
