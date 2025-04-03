@@ -1,0 +1,6 @@
+faiss*
+*.jsonl
+*.json
+*.faiss
+processed*
+.env
