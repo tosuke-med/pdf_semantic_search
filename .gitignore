@@ -4,3 +4,4 @@ faiss*
 *.faiss
 processed*
 .env
+pdf_semantic*
