@@ -59,10 +59,18 @@ ZOTERO_USER_ID=111111111
 セルごとに検索時の追加機能が変わりますので冒頭の#コメント参照してください。
 Zoteroで開くボタン付きのセルでは、Zotero API keyとIDを.envに入力しておくと、該当する論文をZotero側で選択するボタンを使えます。
 
+「平均ベクトルからの論文タイトル検索」とコメントのあるものは段落から抽出したベクトルの平均をとることで
+段落ではなく、論文そのものを検索するものです。
+
 回答生成機能のあるセルでは、引用した文献の内容をAPIに送り、自動的に回答生成します。
+一部は日本語のクエリにも対応しています（APIによる翻訳を使用）。
 Gemini APIを使用する場合無料枠を超えると課金されますのでご注意ください。
 ローカル環境のOllamaでMistral 7Bを使用したセルも作ってありますが
 回答の質はいまいちです。
+
+`graph.ipynb`でクエリを入れる、あるいは論文選択すると類似した論文でグラフネットワークを生成します。
+平均ベクトルを使用しています。
+htmlを作成して、ネットワーク表示するものと、Jupyter上で開くものの２タイプがあります。
 
 ## 📁 ファイル構成
 
@@ -72,7 +80,8 @@ Gemini APIを使用する場合無料枠を超えると課金されますので�
 - `extract.ipynb`: 対象フォルダ内のすべてのpdfからテキスト抽出するNotebook
 - `create_faiss.ipynb`: `paragraphs.jsonl`をロードし、FAISS構築を行うNotebook
 - `search.ipynb`: Jupyterベースの検索GUI
-
+- `graph.ipynb`: Jupyterベースのグラフネットワーク生成GUI
+- 
 ## License
 
 This project is licensed under the [GNU Affero General Public License, Version 3.0](./LICENSE).
